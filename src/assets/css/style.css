@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    outline: solid 1px red;
+}
+
+:root {
+    --main-color: #2A3855;
+}
+
+body {
+    height: 100vh;
+}
+
+.thing-you-get {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.the-things {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .things-block {
+    width: 30%;
+} */
+
+.things-block_img {
+    width: 20%;
+    height: 20%;
+}
+
+.things-block_img img {
+    width: 20%;
+}
